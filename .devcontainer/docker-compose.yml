@@ -12,7 +12,7 @@ services:
       - ../src:/app/src
       - ../.vscode:/app/.vscode
       - ../.gitignore:/app/.gitignore
-      - ../.pretterrc.cjs:/app/.pretterrc.cjs
+      - ../.prettierrc.cjs:/app/.prettierrc.cjs
       - ../.eslintrc.cjs:/app/.eslintrc.cjs
       - ../index.html:/app/index.html
       - ../package.json:/app/package.json
