@@ -11,6 +11,7 @@ RUN pnpm install
 FROM base
 COPY .. /app
 WORKDIR /app
+COPY --from=dependencies /app/pnpm-lock.yaml ./
 COPY --from=dependencies /app/node_modules ./node_modules
 EXPOSE 5173
 CMD [ "pnpm", "dev" ]

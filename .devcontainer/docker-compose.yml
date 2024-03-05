@@ -22,3 +22,4 @@ services:
       - ../public:/app/public
       - ../.storybook:/app/.storybook
       - ../.git:/app/.git
+      - ../.devcontainer:/app/.devcontainer
