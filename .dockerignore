@@ -1,0 +1,10 @@
+.history
+node_modules
+.devcontainer
+.vscode
+build
+dist
+.git
+.DS_Store
+.env
+pnpm-lock.yaml
