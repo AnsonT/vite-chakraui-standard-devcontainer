@@ -18,7 +18,7 @@ services:
       - ../package.json:/app/package.json
       - ../tsconfig.json:/app/tsconfig.json
       - ../tsconfig.node.json:/app/tsconfig.node.json
-      - ../vit.config.ts:/app/vit.config.ts
+      - ../vite.config.ts:/app/vite.config.ts
       - ../public:/app/public
       - ../.storybook:/app/.storybook
       - ../.git:/app/.git
